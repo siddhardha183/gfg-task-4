@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Country food</title>
+    <style>
+        * 
+        {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+        body 
+        {
+            background-color: #f8f9fa;
+            color: #333;
+            line-height: 1.6;
+            padding: 20px;
+        }
+        .container 
+        {
+            max-width: 700px;
+            margin: 0 auto;
+            background: #fff;
+            padding: 20px;
+            border-radius: 8px;
+        }
+        h1 
+        {
+            text-align: center;
+            font-size: 50px;
+            color: #ff6347;
+            margin-bottom: 10px;
+        }
+        p 
+        {
+            text-align: center;
+            color: #555;
+            margin-bottom: 20px;
+        }
+        form input,form textarea 
+        {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        form textarea 
+        {
+            height: 100px;
+        }
+
+        form button 
+        {
+            background-color: #ff6347;
+            color: #fff;
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            width: 100%;
+            font-size: 20px;
+        }
+
+        form button:hover 
+        {
+            background-color: #e5533d;
+        }
+
+        .contact-info 
+        {
+            margin-top: 20px;
+            text-align: center;
+            font-size: 20px
+        }
+
+        .contact-info p 
+        {
+            margin: 5px 0;
+            color: #555;
+        }
+
+        .contact-info a 
+        {
+            color: #ff6347;
+            text-decoration: none;
+        }
+
+        .contact-info a:hover 
+        {
+            text-decoration: underline;
+        }
+        footer 
+        {
+            text-align: center;
+            margin-top: 20px;
+            font-size: 10px;
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Contact Us</h1>
+        <p>For reservations, queries, or feedback, please fill out the form below.</p>
+        <form>
+            <label for="name">Your Name</label>
+            <input type="text" id="name" name="name" placeholder="Enter your name" required>
+
+            <label for="email">Your Email</label>
+            <input type="email" id="email" name="email" placeholder="Enter your email" required>
+            <label for="number">Your phone number</label>
+            <input type="email" id="email" name="email" placeholder="Enter your phone number" required>
+            <label for="message">Your Message</label>
+            <textarea id="message" name="message" placeholder="Write your message here..." required></textarea>
+
+            <button type="submit">Send Message</button>
+        </form>
+        <div class="contact-info">
+            <p><b>Email:</b> <a href="delightfood@gmail.com">countryfood@gmail.com</a></p>
+            <p><b>Phone:</b> +91 9675356780</p>
+            <p><b>Address:</b> Aitam college,Tekkali </p>
+        </div>
+    </div>
+</body>
+</html>
